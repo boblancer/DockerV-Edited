@@ -119,7 +119,7 @@ class Image(QWidget):
 
         self.images_list = image_list
         for i in range(len(image_list)):
-            ImageListItem = ImageListItem(self.user.ImageListItem(i))
+            im = ImageListItem(self.user.getImageDetail(i))
             self.createListItem(im)
 
     def checkboxIsPressed(self, cb):

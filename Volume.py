@@ -7,6 +7,7 @@ from PySide2.QtGui import *
 from ClickableLabelWidget import ClickableLabel, ClickableLabelTab
 from docker_temp import User
 from ButtonTabWidget import ButtonWidget
+from VolumeItem import VolumeItem
 
 
 class Volume(QWidget):
